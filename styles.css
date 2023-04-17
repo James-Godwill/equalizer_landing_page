@@ -6,11 +6,17 @@
     --landing-black:#191826;
 
 
-  
+    font-family: 'IBM Plex Sans', sans-serif;
+
     background: url("./assets/bg-main-desktop.png");
     
 }
 
+
+.infoBox img{
+max-width: 100%;
+
+}
 
 
 #equalizerInfo{
@@ -22,6 +28,7 @@
 
 .logo-body-section{
     border: 3px solid blue;
+  
     margin: 40px 0px 0px 120px;
     width: 56%;
     display: flex;
@@ -29,7 +36,9 @@
 
 }
 
-.infoBox{
+.infoBox{  
+    background-color: var(--landing-black);
+    border-radius:12px ;
     display: absolute;
     border: 3px solid blue;
     margin: 240px auto 20px auto;
@@ -50,30 +59,63 @@
 
 
 } */
-.overlapping-phone{
+
+
+.landing-info-pattern{
+    
+    border: 3px solid cyan;
     position: relative;
-    height: 100%;
+    z-index: 1;
+    margin: auto;
+    left: 2%;
+    bottom: 60%;
+    height: 200px;
+    width:40%;
+
+}
+
+
+
+
+
+.overlapping-phone{
+    object-fit:cover;
+    position: relative;
+    height:70% ;
     border: 3px solid blue;
-    width: 30%;
+    width: 300px;
     z-index: 2;
     left: 100px;
-    bottom: 30%;
+    bottom: 25%;
+    
+    
+
+}
+
+.overlapping-info-container{
+    
+  
+
+    position:relative;
+    padding: 2%;
+    padding-right: 10px;
+    color: var(--landing-white);
+    height: 550px;
+    border: 3px solid red;
+    border-radius: 12px;
+    background-color: var(--red-orange);
+    width: 35%;
+    float: right;
+    right: 50px;
+    z-index: 3;
+    bottom: 70%;
     
     
 
 }
 
 .overlapping-info{
-    position:relative;
-    height: 620px;
-    border: 3px solid red;
-    width: 42%;
-    float: right;
-    right: 50px;
-    z-index: 3;
-    bottom: 80%;
-    
-    
+    margin: auto;
 
 }
 
@@ -96,8 +138,8 @@ h1{
 
 h2{
 
-    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 40px;
+    color: var(--landing-white);
     line-height: 52px;
     font-weight:700px;
    
@@ -106,6 +148,8 @@ h2{
 
 .body1{
     display: flex;
+    margin-block-start:0.4em;
+
     font-family: 'IBM Plex Sans', sans-serif;
     color: var(--landing-black);
     font-size: 20px;
@@ -113,20 +157,33 @@ h2{
     font-weight:400px;
     letter-spacing: -1px;
 }
+.dollarWrapper{
+
+    font-size: 66px;
+     margin-right:20px;
+     margin-block: 0.7em;
+
+}
 
 .body2{
     font-family: 'IBM Plex Sans', sans-serif;
     color: var(--landing-black);
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: var(--landing-white);
     font-size: 16px;
     line-height: 26px;
     font-weight:400px;
-}
+} 
 
 
 
 .Btn{
     display: flex;
-    width: 333px;
+    width: 80%;
+    margin: 0px auto 16px auto;
     height: 61px;
     border: none;
     border-radius: 12px;
@@ -163,8 +220,8 @@ svg{
    
     
     object-fit: contain;
-height: 15em;
-    width: 14em;
+    height: 12em;
+    width: 16em;
     position: absolute;
     top: 0px;
     right: 0px;
