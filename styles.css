@@ -30,7 +30,7 @@ max-width: 100%;
     border: 3px solid blue;
   
     margin: 40px 0px 0px 120px;
-    width: 56%;
+    width: 57%;
     display: flex;
     flex-direction: column;
 
@@ -46,19 +46,6 @@ max-width: 100%;
     height: 600px;
 
 }
-/* .overlapping-info{
-    position: relative;
-    height: 620px;
-    border: 3px solid red;
-    width: 440px;
-    z-index: 2;
-   float:right;
-   
-    
-    
-
-
-} */
 
 
 .landing-info-pattern{
@@ -67,10 +54,10 @@ max-width: 100%;
     position: relative;
     z-index: 1;
     margin: auto;
-    left: 2%;
+    left: 12%;
     bottom: 60%;
     height: 200px;
-    width:40%;
+    width:60%;
 
 }
 
@@ -97,8 +84,6 @@ max-width: 100%;
   
 
     position:relative;
-    padding: 2%;
-    padding-right: 10px;
     color: var(--landing-white);
     height: 550px;
     border: 3px solid red;
@@ -106,7 +91,7 @@ max-width: 100%;
     background-color: var(--red-orange);
     width: 35%;
     float: right;
-    right: 50px;
+    right: 100px;
     z-index: 3;
     bottom: 70%;
     
@@ -116,6 +101,7 @@ max-width: 100%;
 
 .overlapping-info{
     margin: auto;
+    padding: 20px;
 
 }
 
@@ -157,11 +143,13 @@ h2{
     font-weight:400px;
     letter-spacing: -1px;
 }
+
 .dollarWrapper{
 
     font-size: 66px;
      margin-right:20px;
-     margin-block: 0.7em;
+    
+    margin-block: 0em;
 
 }
 
@@ -198,7 +186,7 @@ h2{
 
 }
 
-svg{
+.overlapping-info img{
     margin-right: 8px;
 }
 
@@ -227,6 +215,56 @@ svg{
     right: 0px;
  
 }
+
+footer{
+
+    display: grid;
+    position: relative;
+    grid-template-columns:  10% 55% auto;
+    border: 3px solid blue;
+    color:var(--landing-black);
+    margin: 0px auto 50px auto;
+    width: 80%;
+}
+
+.footer-text{
+
+    margin-block: 0em;
+    margin-left:40%;
+}
+
+
+
+
+.social-media-items{
+    margin-top: 1.2em;
+    float:right;
+
+
+    
+
+}
+
+.social-media-items a{
+    
+    
+    margin: 10px;
+   align-items: center;
+   
+    
+
+    
+
+    /* position: sticky;
+    float: right; */
+}
+
+.social-media-items a :hover{
+ fill: var(--red-orange);
+
+}
+ 
+
 
 
 @media (max-width: 480px) {
@@ -330,3 +368,6 @@ svg{
 }
 
 
+* {
+    box-sizing: border-box;
+  }
