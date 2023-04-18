@@ -89,7 +89,7 @@ max-width: 100%;
     border: 3px solid red;
     border-radius: 12px;
     background-color: var(--red-orange);
-    width: 35%;
+    width: 400px;
     float: right;
     right: 100px;
     z-index: 3;
@@ -240,9 +240,6 @@ footer{
     margin-top: 1.2em;
     float:right;
 
-
-    
-
 }
 
 .social-media-items a{
@@ -311,6 +308,57 @@ footer{
         line-height: 64px;
     }
 
+    .social-media-items{
+        margin-top: 2em;
+       
+    
+    }
+
+    .overlapping-phone{
+        object-fit:cover;
+        position: relative;
+        height:70% ;
+        border: 3px solid yellow;
+        width: 300px;
+        z-index: 2;
+        left: 40px;
+        bottom: 25%;
+        
+        
+    
+    }
+
+    .overlapping-info-container{
+    
+  
+
+        position:relative;
+        color: var(--landing-white);
+        height: 550px;
+        border: 3px solid yellow;
+        border-radius: 12px;
+        background-color: var(--red-orange);
+        width: 350px;
+        float: right;
+        right: 30px;
+        z-index: 3;
+        bottom: 70%;
+        
+        
+    
+    }
+
+    footer{
+
+        display: grid;
+        position: relative;
+        grid-template-columns:  10% 55% auto;
+        border: 3px solid yellow;
+        color:var(--landing-black);
+        margin: 0px auto 50px auto;
+        width: 80%;
+    }
+
     .logo-body-section{
         border: 3px solid yellow;
         margin: 60px 200px 60px 30px;
@@ -333,9 +381,45 @@ footer{
     
     }
 
+  
+
+    .infoBox{  
+        background-color: var(--landing-black);
+        border-radius:12px ;
+        display: absolute;
+        border: 3px solid blue;
+        margin: 240px auto 20px auto;
+        width: 100%;
+        height: 600px;
+    
+    }
+
     h1{
         font-size: 50px;
         line-height: 50px;
+    }
+
+    .overlapping-phone{
+        
+        height:70% ;
+        border: 3px solid cyan;
+        width: 240px;
+        left: 20px;
+        
+        
+    
+    }
+
+    .overlapping-info-container{
+    
+
+        width: 300px;
+        right: 20px;
+        z-index: 3;
+        bottom: 70%;
+        
+        
+    
     }
 
 
