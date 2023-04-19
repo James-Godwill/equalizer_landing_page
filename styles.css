@@ -27,7 +27,6 @@ max-width: 100%;
 }
 
 .logo-body-section{
-    border: 3px solid blue;
   
     margin: 40px 0px 0px 120px;
     width: 57%;
@@ -40,7 +39,6 @@ max-width: 100%;
     background-color: var(--landing-black);
     border-radius:12px ;
     display: absolute;
-    border: 3px solid blue;
     margin: 240px auto 20px auto;
     width: 80%;
     height: 600px;
@@ -50,7 +48,6 @@ max-width: 100%;
 
 .landing-info-pattern{
     
-    border: 3px solid cyan;
     position: relative;
     z-index: 1;
     margin: auto;
@@ -69,7 +66,6 @@ max-width: 100%;
     object-fit:cover;
     position: relative;
     height:70% ;
-    border: 3px solid blue;
     width: 300px;
     z-index: 2;
     left: 100px;
@@ -86,7 +82,6 @@ max-width: 100%;
     position:relative;
     color: var(--landing-white);
     height: 550px;
-    border: 3px solid red;
     border-radius: 12px;
     background-color: var(--red-orange);
     width: 400px;
@@ -221,7 +216,6 @@ footer{
     display: grid;
     position: relative;
     grid-template-columns:  10% 55% auto;
-    border: 3px solid blue;
     color:var(--landing-black);
     margin: 0px auto 50px auto;
     width: 80%;
@@ -282,7 +276,6 @@ footer{
         "social"
         ;
     
-        border: 3px solid cyan;
         grid-gap:0px;
         color:var(--landing-black);
         margin: 0px auto 50px auto;
@@ -327,7 +320,6 @@ footer{
         left: 20%;
         right: 20%;
         height:70% ;
-        border: 3px solid blue;
         width: 65%;
         z-index: 2;
         bottom: 25%;
@@ -337,7 +329,6 @@ footer{
     }
 
     .logo-body-section{
-        border: 3px solid red;
 
         margin: 20px;
         width: 90%;
@@ -355,7 +346,6 @@ footer{
          background-color: var(--red-orange);
          border-radius:12px ;
          display: absolute;
-         border: 3px solid red;
          top: -340px;
          right: 0px;
          margin: 0px auto 20px auto;
@@ -372,7 +362,6 @@ footer{
         background-color: var(--landing-black);
         border-radius:12px ;
         display: absolute;
-        border: 3px solid red;
         margin: 240px auto 20px auto;
         width: 100%;
         height: 600px;
@@ -418,7 +407,6 @@ footer{
         object-fit:cover;
         position: relative;
         height:70% ;
-        border: 3px solid yellow;
         width: 300px;
         z-index: 2;
         left: 40px;
@@ -435,7 +423,6 @@ footer{
         position:relative;
         color: var(--landing-white);
         height: 550px;
-        border: 3px solid yellow;
         border-radius: 12px;
         background-color: var(--red-orange);
         width: 350px;
@@ -453,14 +440,12 @@ footer{
         display: grid;
         position: relative;
         grid-template-columns:  10% 55% auto;
-        border: 3px solid yellow;
         color:var(--landing-black);
         margin: 0px auto 50px auto;
         width: 80%;
     }
 
     .logo-body-section{
-        border: 3px solid yellow;
         margin: 60px 200px 60px 30px;
         display: flex;
         flex-direction: column;
@@ -474,7 +459,6 @@ footer{
         background: url("./assets/bg-main-tablet.png");
     }
     .logo-body-section{
-        border: 3px solid cyan;
         margin: 60px 200px 60px 30px;
         display: flex;
         flex-direction: column;
@@ -494,7 +478,6 @@ footer{
             "footericon social "
             "footertext social";
         
-            border: 3px solid cyan;
             grid-gap:0px;
             color:var(--landing-black);
             margin: 0px auto 50px auto;
@@ -529,7 +512,6 @@ footer{
         background-color: var(--landing-black);
         border-radius:12px ;
         display: absolute;
-        border: 3px solid blue;
         margin: 240px auto 20px auto;
         width: 100%;
         height: 600px;
@@ -544,7 +526,6 @@ footer{
     .overlapping-phone{
         
         height:70% ;
-        border: 3px solid cyan;
         width: 240px;
         left: 20px;
         
@@ -554,7 +535,6 @@ footer{
 
     .overlapping-info-container{
     
-        border: 3px solid cyan;
 
         width: 300px;
         right: 20px;
