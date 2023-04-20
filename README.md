@@ -21,4 +21,4 @@ The code also includes links to external stylesheets for fonts.
 
 The font used for the landing page is IBM Plex Sans 
 
-This is a CSS and HTML code written by a graduate trainee of Amalitech James Godwill Arkoh.
+This is a CSS and HTML code written by James Godwill Arkoh.
