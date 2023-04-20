@@ -242,20 +242,33 @@ footer{
     margin: 10px;
    align-items: center;
    
-    
 
-    
-
-    /* position: sticky;
-    float: right; */
 }
 
 .social-media-items a :hover{
  fill: var(--red-orange);
 
 }
+
+
+.androidBtn:hover{
+    background-color: var(--lightbrown);
+
+}
+
+.iosBtn:hover{
+    background-color: var(--lightcyan);
+
+}
+
+
+* {
+    box-sizing: border-box;
+  }
  
 
+
+  /* START OF MEDIA QUERY */
 
 
 @media (max-width: 480px) {
@@ -265,9 +278,7 @@ footer{
 
     footer{
 
-        display: grid;
-        position: relative;
-        /* grid-template-columns:  10% 55% auto; */
+        
         grid-template-columns: 1fr  ;
         grid-template-rows: 1fr ;
         grid-template-areas:
@@ -277,8 +288,6 @@ footer{
         ;
     
         grid-gap:0px;
-        color:var(--landing-black);
-        margin: 0px auto 50px auto;
         width: 100%;
     
     }
@@ -286,12 +295,12 @@ footer{
     .footer-text{
     grid-area:footertext ;
     font-size: 16px;
-    margin-top: 10px;
-    margin-left: 0px;
+    margin: 10px 0px 10px 0px;
     }
     
     .footer-image{
     grid-area: footericon;
+    margin-bottom: 10px;
     }
     
     .social-media{
@@ -302,6 +311,7 @@ footer{
 
     .social-media-items{
         float: left;
+        
     }
 
     h2{
@@ -313,16 +323,14 @@ footer{
     }
 
     .overlapping-phone{
-        object-fit:cover;
-        position: relative;
+        border: 2px solid red;
+
+       
         display: inline-block;
         margin: auto;
         left: 20%;
         right: 20%;
-        height:70% ;
         width: 65%;
-        z-index: 2;
-        bottom: 25%;
         
         
     
@@ -330,7 +338,7 @@ footer{
 
     .logo-body-section{
 
-        margin: 20px;
+        margin: 40px 6px 10px 6px;
         width: 90%;
         object-fit: contain;
         display: flex;
@@ -343,14 +351,12 @@ footer{
   
 
 
-         background-color: var(--red-orange);
          border-radius:12px ;
          display: absolute;
          top: -340px;
          right: 0px;
          margin: 0px auto 20px auto;
          width: 100%;
-         height: 520px;
         
     
     }
@@ -359,10 +365,7 @@ footer{
 
 
     .infoBox{  
-        background-color: var(--landing-black);
-        border-radius:12px ;
-        display: absolute;
-        margin: 240px auto 20px auto;
+       
         width: 100%;
         height: 600px;
     
@@ -391,67 +394,6 @@ footer{
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
-    h1{
-        font-size: 65px;
-        line-height: 64px;
-    }
-
-    .social-media-items{
-        margin-top: 2em;
-       
-    
-    }
-
-    .overlapping-phone{
-        object-fit:cover;
-        position: relative;
-        height:70% ;
-        width: 300px;
-        z-index: 2;
-        left: 40px;
-        bottom: 25%;
-        
-        
-    
-    }
-
-    .overlapping-info-container{
-    
-  
-
-        position:relative;
-        color: var(--landing-white);
-        height: 550px;
-        border-radius: 12px;
-        background-color: var(--red-orange);
-        width: 350px;
-        float: right;
-        right: 30px;
-        z-index: 3;
-        bottom: 70%;
-        
-        
-    
-    }
-
-    footer{
-
-        display: grid;
-        position: relative;
-        grid-template-columns:  10% 55% auto;
-        color:var(--landing-black);
-        margin: 0px auto 50px auto;
-        width: 80%;
-    }
-
-    .logo-body-section{
-        margin: 60px 200px 60px 30px;
-        display: flex;
-        flex-direction: column;
-    
-    }
-}
 
 @media (min-width: 481px) and (max-width: 767px) {
 
@@ -460,8 +402,7 @@ footer{
     }
     .logo-body-section{
         margin: 60px 200px 60px 30px;
-        display: flex;
-        flex-direction: column;
+ 
     
 }
     
@@ -469,9 +410,7 @@ footer{
   
         footer{
 
-            display: grid;
-            position: relative;
-            /* grid-template-columns:  10% 55% auto; */
+        
             grid-template-columns: 2fr 1fr ;
             grid-template-rows: 1fr 1fr ;
             grid-template-areas:
@@ -479,8 +418,7 @@ footer{
             "footertext social";
         
             grid-gap:0px;
-            color:var(--landing-black);
-            margin: 0px auto 50px auto;
+           
             width: 90%;
         
 }
@@ -509,11 +447,7 @@ footer{
 
 
     .infoBox{  
-        background-color: var(--landing-black);
-        border-radius:12px ;
-        display: absolute;
-        margin: 240px auto 20px auto;
-        width: 100%;
+      
         height: 600px;
     
     }
@@ -525,7 +459,6 @@ footer{
 
     .overlapping-phone{
         
-        height:70% ;
         width: 240px;
         left: 20px;
         
@@ -538,8 +471,7 @@ footer{
 
         width: 300px;
         right: 20px;
-        z-index: 3;
-        bottom: 70%;
+       
         
         
     
@@ -549,32 +481,56 @@ footer{
 
     #patternContainer{
 
-   
+
         
-        object-fit: contain;
     height: 9em;
         width: 11em;
-        position: absolute;
-        top: 0px;
-        right: 0px;
+        
      
     }
 }
 
+@media (min-width: 768px) and (max-width: 1024px){
+    h1{
+        font-size: 65px;
+        line-height: 64px;
+    }
+
+    .social-media-items{
+        margin-top: 2em;
+       
+    
+    }
+
+    .overlapping-phone{
+       
+       
+        left: 40px;
+        bottom: 25%;
+        
+        
+    
+    }
+
+    .overlapping-info-container{
+    
+  
+
+      
+        width: 350px;
+        right: 30px;
+        
+        
+    
+    }
 
 
 
-.androidBtn:hover{
-    background-color: var(--lightbrown);
-
+    .logo-body-section{
+        margin: 60px 200px 60px 30px;
+       
+    
+    }
 }
 
-.iosBtn:hover{
-    background-color: var(--lightcyan);
-
-}
-
-
-* {
-    box-sizing: border-box;
-  }
+/* END OF MEDIA QUERY */
