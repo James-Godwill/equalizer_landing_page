@@ -218,7 +218,7 @@ footer{
     position: absolute;
     grid-template-columns:  10% 80% 30%;
     color:var(--landing-black);
-    margin: 250px 8% 0px 8%;
+    margin: 200px 8% 0px 10%;
     width: 80%;
 }
 
@@ -273,6 +273,32 @@ footer{
 
   /* START OF MEDIA QUERY */
 
+  @media (min-width:370){
+    :root{
+        background: url("./assets/bg-main-mobile.png");
+    }
+
+    footer{
+
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 1fr ;
+        grid-template-areas:
+        "footericon "
+        "footertext "
+        "social"
+        ;
+
+        margin: 300px 8px 0px 6%;
+
+        
+    
+        grid-gap:0px;
+        width: 100%;
+    
+    }
+  }
+
 
 @media (max-width: 480px) {
     :root{
@@ -289,6 +315,8 @@ footer{
         "footertext "
         "social"
         ;
+
+        margin: 440px 8px 0px 6%;
 
         
     
@@ -400,6 +428,7 @@ footer{
 }
 
 
+
 @media (min-width: 481px) and (max-width: 767px) {
 
     :root{
@@ -422,7 +451,7 @@ footer{
         
             grid-gap:0px;
             position: absolute;
-            margin: 200px 8px 0px 8px;
+            margin: 200px 8px 0px 6%;
 
 
                        
@@ -444,6 +473,7 @@ footer{
 .social-media{
     grid-area: social;
     display: flex;
+    float: right;
     align-items: center;
    
     
