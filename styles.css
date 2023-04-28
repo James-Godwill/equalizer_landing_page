@@ -109,7 +109,7 @@ h1{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 88px;
     margin-block-end: 0px;
-    margin-block-start: 0.7em;
+    margin-block-start: 1.2em;
     color: var(--landing-black);
     line-height: 88px;
     font-weight:700px;
@@ -244,7 +244,7 @@ footer{
 .social-media-items a{
     
     
-    margin: 10px;
+    margin-right:20px;
    align-items: center;
    
 
