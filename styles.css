@@ -273,7 +273,7 @@ footer{
 
   /* START OF MEDIA QUERY */
 
-  @media(min-width: 0px) and (max-width:260px){
+  @media(min-width: 0px) and (max-width:399px){
     :root{
         background: url("./assets/bg-main-mobile.png");
     }
@@ -313,6 +313,7 @@ footer{
     .social-media{
     grid-area: social;
     margin-top: 48px;
+    margin-bottom: 6em;
  
     
     }
@@ -406,7 +407,7 @@ footer{
   }
 
 
-@media (min-width:260px) and (max-width: 480px) {
+@media (min-width:400px) and (max-width: 480px) {
     :root{
         background: url("./assets/bg-main-mobile.png");
     }
@@ -414,6 +415,8 @@ footer{
     footer{
 
         display: grid;
+        position: absolute;
+
         grid-template-columns: 1fr  ;
         grid-template-rows: 1fr ;
         grid-template-areas:
@@ -422,7 +425,7 @@ footer{
         "social"
         ;
 
-        margin: 440px 8px 0px 6%;
+        margin: 440px 8px 15% 4%;
 
         
     
@@ -445,7 +448,9 @@ footer{
     
     .social-media{
     grid-area: social;
-    margin-top: 48px;
+    margin-top: 32px;
+    margin-bottom: 6em;
+   
  
     
     }
