@@ -233,9 +233,11 @@ footer{
 
 
 
-.social-media-items{
+.social-media{
     
-   
+    display: flex;
+    align-content: center;
+    align-items: center;
 
 }
 
@@ -651,11 +653,7 @@ footer{
         line-height: 64px;
     }
 
-    .social-media-items{
-        margin-top: 2em;
-       
-    
-    }
+   
 
     .overlapping-phone{
        
