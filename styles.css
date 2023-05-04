@@ -280,6 +280,13 @@ footer{
         background: url("./assets/bg-main-mobile.png");
     }
 
+    .landing-info-pattern{
+        margin: 0px 0px;
+        bottom: 70%;
+        left: 1em;
+        
+    }
+
     footer{
 
         display: grid;
@@ -538,11 +545,20 @@ footer{
         display: none;
      
     }
+
+    .landing-info-pattern{
+        margin: 0px 0px;
+        bottom: 86%;
+        left: 2em;
+        width: 100vh;
+    }
 }
 
 
 
 @media (min-width: 481px) and (max-width: 767px) {
+
+
 
     :root{
         background: url("./assets/bg-main-tablet.png");
@@ -592,6 +608,7 @@ footer{
     
 
 }
+
 
 .social-media-items{
   
